@@ -1,0 +1,22 @@
+pip install alembic
+alembic init alembic  #vscode 終端機
+
+在ini檔修改
+38 sqlalchemy.url = sqlite:///lstore.db
+    
+到 alembic資料夾 env.py 的檔案
+加上
+import os
+import sys
+sys.path.append(os.getcwd())#才可以抓到專案的路徑
+
+17 # for 'autogenerate' support
+18 # from myapp import mymodel
+19 # target_metadata = mymodel.Base.metadata
+20 from app import *
+21 from database import Base
+22 target_metadata = Base.metadata
+
+#下一步
+alembic revision --autogenerate #會出現東西
+alembic upgrade head

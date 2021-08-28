@@ -1,0 +1,4 @@
+https://dormousehole.readthedocs.io/en/latest/patterns/sqlalchemy.html
+https://sqlitebrowser.org/
+pip install sqlalchemy==1.3.5
+pip install SQLAlchemy_Utils

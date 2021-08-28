@@ -1,0 +1,7 @@
+line pay sandbox
+登入 用email中的
+
+管理連結金鑰--> 把資料放進config
+
+下載https://www.postman.com/downloads/
+ 

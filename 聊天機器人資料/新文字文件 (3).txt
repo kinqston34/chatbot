@@ -1,0 +1,7 @@
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
+if is_ascii(str(event.message.text)):
+        message_text = str(event.message.text).lower()
+    else:
+        message_text = event.message.text

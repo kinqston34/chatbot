@@ -1,0 +1,1 @@
+ https://sandbox-api-pay.line.me/v2/payments/request #測試url付款

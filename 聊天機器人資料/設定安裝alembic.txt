@@ -1,0 +1,2 @@
+pip install alembic
+alembic init alembic  #vscode 終端機
